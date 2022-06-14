@@ -1,4 +1,4 @@
-ML_NLP_OKCupid
+Machine Learning Class: Nora Pauelsen
 ==============================
 
 Using NLP to analyze OkCupid profile texts for my class 
