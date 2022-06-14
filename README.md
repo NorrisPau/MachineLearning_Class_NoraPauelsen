@@ -8,7 +8,7 @@ Using NLP to analyze OkCupid profile texts for my class
 # Research Question: Predict sex with NLP on user profile text (essay0: about me) on Dating App OKCupid 
 ## Scripts 
 
-1. **Data_Exploration_and_BERTopic**: Read in raw dataset, Data Processing: Remove stopwords, run BERTopic to create matrix with topic probabilities and dataset with highest probable topic per profile text,
+1. **data_exploration**: Read in raw dataset, Data Processing: Remove stopwords, run BERTopic to create matrix with topic probabilities and dataset with highest probable topic per profile text,
 2. **BERTopic predict sex** Use topic probability matrix to predict sex with neural net (pytorch)
 3. **BERT Text Classifier**: Use Distilbert Model uncased from hugging face to predict sex, fine-tune model in 3 epochs, run inference, evaluate  
 
